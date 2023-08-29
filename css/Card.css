@@ -1,0 +1,57 @@
+/* CardComponent.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 1;
+    max-width: 100px; /* Adjust the max-width as needed */
+    padding: 15px; /* Reduce the padding */
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 15px; /* Reduce the top position */
+    right: 15px; /* Reduce the right position */
+    background-color: lightgray;
+    padding: 3px 6px; /* Reduce the padding */
+    border-radius: 5px;
+  }
+  
+  .section {
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 16px; /* Reduce the font size */
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 14px; /* Reduce the font size */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .card {
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      max-width: 100%;
+    }
+  }
+  
+  
+  
+  

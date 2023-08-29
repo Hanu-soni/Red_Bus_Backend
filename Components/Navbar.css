@@ -1,0 +1,45 @@
+/* Page1.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-button {
+    font-weight: bold;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .auth-button {
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login {
+    background-color: orange;
+    color: white;
+  }
+  
+  .register {
+    background-color: white;
+    color: orange;
+  }
+  
